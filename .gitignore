@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+
+history/
+.history/
+*.log
+
+node_modules/
+.next/
