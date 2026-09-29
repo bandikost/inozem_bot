@@ -1,17 +1,14 @@
 {
-  "name": "conference-bot",
+  "name": "medicina-i-kachestvo-2026-bot",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Telegram bot for conference «Медицина и качество — 2026»",
+  "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bot.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "dotenv": "^17.2.1",
-    "nodemailer": "^7.0.5",
+    "dotenv": "^16.6.1",
+    "socks-proxy-agent": "^8.0.5",
     "telegraf": "^4.16.3",
     "xlsx": "^0.18.5"
   }
