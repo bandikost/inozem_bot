@@ -34,7 +34,7 @@ const bot = new Telegraf(BOT_TOKEN, {
 bot.use(session());
 
 const DATA_DIR = path.join(__dirname, 'data');
-const PROGRAM_PDF = path.join(DATA_DIR, 'programma.pdf');
+const PROGRAM_PDF = path.join(DATA_DIR, 'programma.docx');
 const STATE_FILE = path.join(DATA_DIR, 'state.json');
 
 const ROUTE_URL = 'https://yandex.ru/maps/2/saint-petersburg/?ll=30.363371%2C59.762315&mode=routes&rtext=~59.762315%2C30.363371&rtt=auto&ruri=~ymapsbm1%3A%2F%2Ftransit%2Fstop%3Fid%3Dstop__10073529&z=11';
